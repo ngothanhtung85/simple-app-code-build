@@ -1,4 +1,4 @@
-FROM public.ecr.aws/amazonlinux/amazonlinux:latest
+FROM --platform=linux/amd64 node:16
 
 #create app directory
 WORKDIR /app
